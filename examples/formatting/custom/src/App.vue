@@ -3,7 +3,7 @@
     <div class="locale">
       <select v-model="locale" @change="$i18n.locale = locale">
         <option value="en-US">english</option>
-        <option value="ja-JP">日本語</option>
+        <option value="es-419">Español</option>
       </select>
     </div>
     <div class="messages">
