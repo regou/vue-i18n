@@ -14,18 +14,25 @@ export default new VueI18n({
     'en-US': {
       message: {
         hello: 'hello!!',
-        plural: 'You have {n, plural, =0{no messages} one{1 message} other{# messages}}.',
-        select: '{gender, select, male{He} female{She} other{They}} liked this.',
-        number: 'Current Percent: {current, number, percent}',
-        time: 'Current Time: {current, time, short}'
+        ihopeso: 'I hope so'
       }
     },
-    'ja-JP': {
+    'en-US~': {
       message: {
-        hello: 'こんにちは！！',
-        select: '{gender, select, male{彼} female{彼女} other{彼ら}} はこれを好きです。',
-        number: '現在パーセンテージ {current, number, percent}',
-        time: '現在時刻: {current, time, medium}',
+        hello: '<p-t v="message.hello">hello!!</p-t>',
+        ihopeso: '<p-t v="message.ihopeso">I hope so</p-t>'
+      }
+    },
+    'es-419': {
+      message: {
+        hello: 'hola！',
+        ihopeso: 'Ojála'
+      }
+    },
+    'es-419~': {
+      message: {
+        hello: '<p-t v="message.hello">hola！！</p-t>',
+        ihopeso: '<p-t v="message.ihopeso">Ojála</p-t>'
       }
     }
   }
